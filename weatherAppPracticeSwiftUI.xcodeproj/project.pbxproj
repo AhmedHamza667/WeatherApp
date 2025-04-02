@@ -32,11 +32,25 @@
 		7729EFDC2D6E85860001DBD0 /* weatherAppPracticeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherAppPracticeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7729EFE62D6E85860001DBD0 /* weatherAppPracticeSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherAppPracticeSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77DC206B2D9DA1AE00817616 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		77DC20702D9DA38D00817616 /* weatherAppPracticeSwiftUI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = weatherAppPracticeSwiftUI.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		77DC206F2D9DA36300817616 /* Exceptions for "weatherAppPracticeSwiftUI" folder in "weatherAppPracticeSwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				readme.md,
+			);
+			target = 7729EFCB2D6E85830001DBD0 /* weatherAppPracticeSwiftUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7729EFCE2D6E85840001DBD0 /* weatherAppPracticeSwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				77DC206F2D9DA36300817616 /* Exceptions for "weatherAppPracticeSwiftUI" folder in "weatherAppPracticeSwiftUI" target */,
+			);
 			path = weatherAppPracticeSwiftUI;
 			sourceTree = "<group>";
 		};
@@ -80,6 +94,7 @@
 		7729EFC32D6E85830001DBD0 = {
 			isa = PBXGroup;
 			children = (
+				77DC20702D9DA38D00817616 /* weatherAppPracticeSwiftUI.xctestplan */,
 				77DC206B2D9DA1AE00817616 /* readme.md */,
 				7729EFCE2D6E85840001DBD0 /* weatherAppPracticeSwiftUI */,
 				7729EFDF2D6E85860001DBD0 /* weatherAppPracticeSwiftUITests */,

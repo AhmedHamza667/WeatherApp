@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "FC0F4D47-2666-4F7C-ABE6-CCD44F4C4D68",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:weatherAppPracticeSwiftUI.xcodeproj",
+      "identifier" : "7729EFCB2D6E85830001DBD0",
+      "name" : "weatherAppPracticeSwiftUI"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:weatherAppPracticeSwiftUI.xcodeproj",
+        "identifier" : "7729EFDB2D6E85860001DBD0",
+        "name" : "weatherAppPracticeSwiftUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:weatherAppPracticeSwiftUI.xcodeproj",
+        "identifier" : "7729EFE52D6E85860001DBD0",
+        "name" : "weatherAppPracticeSwiftUIUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
