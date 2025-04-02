@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		77DC206C2D9DA1AE00817616 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 77DC206B2D9DA1AE00817616 /* readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7729EFDD2D6E85860001DBD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		7729EFCC2D6E85840001DBD0 /* weatherAppPracticeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherAppPracticeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7729EFDC2D6E85860001DBD0 /* weatherAppPracticeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherAppPracticeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7729EFE62D6E85860001DBD0 /* weatherAppPracticeSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherAppPracticeSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DC206B2D9DA1AE00817616 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		7729EFC32D6E85830001DBD0 = {
 			isa = PBXGroup;
 			children = (
+				77DC206B2D9DA1AE00817616 /* readme.md */,
 				7729EFCE2D6E85840001DBD0 /* weatherAppPracticeSwiftUI */,
 				7729EFDF2D6E85860001DBD0 /* weatherAppPracticeSwiftUITests */,
 				7729EFE92D6E85860001DBD0 /* weatherAppPracticeSwiftUIUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DC206C2D9DA1AE00817616 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +405,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"weatherAppPracticeSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +434,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"weatherAppPracticeSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
